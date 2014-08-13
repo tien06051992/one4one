@@ -1,91 +1,51 @@
-
 /*******************************************
 *   Author: <dinh.thang303@gmail.com@gmail.com>
 *   Company: AgilSun Ltd
 ********************************************/
-
 /* Import 'Open Sans' Font */
 
 @font-face {
-
     font-family: 'Open Sans';
-
     font-style: normal;
-
     font-weight: 300;
-
     src: local('Open Sans Light'), local('OpenSans-Light'), url('../fonts/google-open-sans/DXI1ORHCpsQm3Vp6mXoaTXwUvq1pQaUIDqPgpae5ItU.woff') format('woff');
-
 }
-
 @font-face {
-
     font-family: 'Open Sans';
-
     font-style: normal;
-
     font-weight: 400;
-
     src: local('Open Sans'), local('OpenSans'), url('../fonts/google-open-sans/59ZRklaO5bWGqF5A9baEET8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
-
 }
-
 @font-face {
-
     font-family: 'Open Sans';
-
     font-style: normal;
-
     font-weight: 600;
-
     src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('../fonts/google-open-sans/MTP_ySUJH_bn48VBG8sNSnwUvq1pQaUIDqPgpae5ItU.woff') format('woff');
-
 }
-
 @font-face {
-
     font-family: 'Open Sans';
-
     font-style: normal;
-
     font-weight: 700;
-
     src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../fonts/google-open-sans/k3k702ZOKiLJc3WVjuplzHwUvq1pQaUIDqPgpae5ItU.woff') format('woff');
-
 }
-
 @font-face {
-
     font-family: 'Open Sans';
-
     font-style: normal;
-
     font-weight: 800;
-
     src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url('../fonts/google-open-sans/EInbV5DfGHOiMmvb1Xr-hnwUvq1pQaUIDqPgpae5ItU.woff') format('woff');
-
 }
-
 /*------------------------------- Common Styles Define ---------------------------*/
 
 body {
     background: #013c5e;
 }
-
 a:hover, a:active, a:focus {
-
     text-decoration: none;
-
 }
-
 body, h1, h2, h3, h4, h5 {
-
     margin: 0;
-
     padding: 0;
-
     font-family: 'Open Sans', 'sans-serif';
-
 }
 /*---------------------------- End Common Styles Define ---------------------------*/
 
@@ -94,7 +54,6 @@ body, h1, h2, h3, h4, h5 {
     margin: 0px auto;
     width: 1326px;
 }
-
 /*---------------------------- Header ---------------------------*/
 
 .header {
@@ -102,15 +61,12 @@ body, h1, h2, h3, h4, h5 {
     background: url('../images/home-1.jpg') no-repeat center;
     background-size: cover;
 }
-
 .header h1 img {
     padding: 23px 0 0 23px;
 }
-
 .logo img {
     padding-top: 23px;
 }
-
 .message {
     min-width: 700px;
     min-height: 250px;
@@ -118,248 +74,141 @@ body, h1, h2, h3, h4, h5 {
     float: right;
     margin-top: 100px;
 }
-
 .message h2, .message p {
     color: white;
     opacity: 1 !important;
     margin: 23px 0 0 23px;
 }
-
 .message h2 {
-
     font-size: 43px !important;
-
 }
-
 .message p {
-
     font-size: 19px;
-
 }
 
+/* ----------------------- MENU -----------------------------*/
 .menu-head {
-
     background: rgba(0, 165, 181, 0.7);
-
     width: 100%;
-
     margin-top: 122px;
-
     margin: 0px;
-
     margin-top: 500px;
-
 }
-
-/** menu **/
-
-.search-bar, ul.nav-menu-header {} .list-menu {
-
-    height: 50px;
-
-    display: inline-block;
-
-}
-
-.list-menu ul a {
-
-    list-style: none;
-
-    color: #fff;
-
-    font-size: 14px;
-
-    display: block;
-
-    padding: 15px 8px;
-
-}
-
-.list-menu ul a:hover {
-
-    color: #16c1f3;
-
-}
-
-.list-menu ul li:hover {
-
+.menu-head .navbar-toggle span {
     background: #fff;
+}
 
+.menu-head .navbar-collapse.in {
+    overflow-y: hidden; 
+}
+.nav-menu-header {
+    margin-bottom: 0px;
+}
+.search-bar,
+.list-menu {
     display: inline-block;
-
+}
+.list-menu ul a {
+    list-style: none;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    padding: 15px 8px;
+}
+.list-menu ul a:hover {
+    color: #16c1f3;
+}
+.list-menu ul li:hover {
+    background: #fff;
+    display: inline-block;
     height: 100%;
-
 }
-
 .list-menu ul li {
-
     display: inline-block;
-
     font-weight: 700;
-
     margin-left: 15px;
-
 }
-
 /** Search bar **/
 
 .search-bar {
-
     padding-top: 15px;
-
 }
-
 .search-bar input {
-
     width: 120px;
-
     border: none;
-
     height: 25px;
-
     background: #118b97;
-
     color: #fff;
-
     font-size: 11px;
-
 }
-
 .search-bar button {
-
     border: none;
-
     height: 25px;
-
     background: #118b97;
-
     color: #fff;
-
     font-size: 11px;
-
 }
-
 .flag-us {
-
     margin-left: 30px;
-
 }
-
 /**************** MainContent *********************/
 
 .group-search {
-
     margin-top: 25px;
-
     min-height: 200px;
-
     background: #006088;
-
     color: #fff;
     padding: 0px 15px;
-
 }
-
 .group-search span {
-
     font-weight: bold;
-
     color: #5888a4 !important;
-
     display: block;
-
     font-weight: 400;
-
 }
-
 .group-search .tit-search {
-
     margin-left: 110px;
-
     font-size: 17px;
-
     font-weight: 600;
-
 }
-
 .group-search .form-control {
-
     font-size: 12px !important;
-
     border: none !important;
-
     border-radius: 0px !important;
-
     background: #a3c6d4;
-
     color: #dfe3e4;
-
 }
-
 .select-search {
-
     margin-top: 20px;
-
     height: 42px;
-
 }
-.select-search:focus
-{
-    background: #9bbecc !important;
-}
-
 .select-search select {
-
     height: 42px;
-        background: #9bbecc;
 }
-
 .select-search input {
-
     background: #f4f4f4;
-
     border: none;
-
     height: 42px;
-
     color: #5888a4 !important;
-
     font-size: 12px;
-
     font-weight: 400;
-
 }
-
 .select-search input:focus {
-
     background: none;
-
     border: none;
-
     outline-style: none;
-
 }
-
 .select-search button {
-
     height: 40px;
-
     background: #076c93;
-
     width: 100%;
-
     border: none;
-
     outline-style: none;
-
 }
-    
 .btn-search {
     background: #076c93;
     border: 1px solid #fff;
-
 }
-
 .main-content {
     background: #f3f3f3;
     padding: 0px 5px;
@@ -368,71 +217,24 @@ body, h1, h2, h3, h4, h5 {
 .left-content {
     background: #f3f3f3;
 }
-
 /** Main content left **/
 
 .content-left {
-
     margin-top: 15px;
-
     color: #fff;
-
 }
-
-.content-left span {
-
-    
-
-}
-
-.content-left .bg {
-
-
-
-}
-
-.content-left a {
-
+.content-left span {} .content-left .bg {} .content-left a {
     color: #fff;
-
 }
-
 .tit {
-
     font-weight: 600;
-
     font-size: 22px;
-
     height: 50px !important;
-
 }
-
-/*.edu .tit {
-
-    position: absolute;
-
-    font-size: 22px;
-
-    font-weight: 600;
-
-    top: 42%;
-    width: 100%;
-
-    text-align: center;
-
-}*/
-
-/*.edu {
-
-    position: relative;
-
-}*/
-
 .edu img {
     width: 100%;
 }
 .bg-case {
-
     background: rgba(0, 151, 214, 0.4);
     position: absolute;
     min-height: 192px;
@@ -441,20 +243,13 @@ body, h1, h2, h3, h4, h5 {
     font-size: 22px;
     padding-top: 16%;
     top: 0px;
+    left: 0px;
 }
-
 a.style-a {
     display: block;
     width: 100%;
     position: relative;
 }
-
-/*.medical {
-
-    margin: 0 0 12px 12px;
-
-}*/
-
 .dev-project {
     position: relative;
     margin-top: 15px;
@@ -463,9 +258,6 @@ a.style-a {
 .dev-project img {
     width: 100%;
 }
-
-
-
 .bg-project {
     text-align: center;
     padding-top: 10%;
@@ -475,143 +267,82 @@ a.style-a {
     width: 100%;
     min-height: 195px;
     color: #fff;
+    left: 0px;
 }
-
 /** Side Bar **/
 
 .help-emergency {
-
     background: #fff;
-
     max-width: 100%;
-
     height: 100%;
-
     margin-top: 25px;
-
 }
-
 .help-emergency h3 {
-
     text-align: center !important;
-
     display: block;
-
     padding-top: 25px;
-
     font-weight: 600;
-
     font-size: 22px;
-
 }
-
 .help-emergency ul {
-
     list-style: none;
-
 }
-
 .help-emergency ul li {
-
     margin-top: 42px;
-
     font-size: 13px;
-
     font-weight: 600;
-
 }
-
 .help-emergency a {
-
     color: #2f2f2f;
-
 }
-
 .help-emergency img {
-
     float: right;
-
     padding-right: 15px;
-
     margin-top: -13px;
-
 }
-
 .reg-help {
-
     height: 200px;
-
     margin-top: 25px;
-
     background: url("/images/img-10.png") no-repeat;
-
     font-size: 18;
-
     font-weight: 600;
-
     color: #246cf0;
-
 }
-
 .reg-help span {
-
     padding-top: 110px;
-
     padding-left: 10px;
-
     display: block;
-
 }
-
 /** List herlper **/
 
 .list-helper {
     width: 100%;
     padding-top: 90px;
-
     display: inline-block;
-
     margin: 0;
     background: #f3f3f3;
-
 }
-
 .list-brand-supporter {
-
     padding: 25px 25px 25px 40px;
-
 }
-
 .list-brand-supporter img {
-
     margin: 0 auto;
-
     display: block;
-
 }
-
 .tit-helper {
-
     text-align: center;
-
     font-size: 22px;
-
     font-weight: bold;
-
     color: #00a0b0;
-
     margin-bottom: 85px;
-
 }
 /** Footer **/
-.footer
-{
+
+.footer {
     height: 25px;
     background: #353535;
-    
 }
-.copyright
-{
+.copyright {
     color: #fafafa;
     font-size: 11px;
     float: right;

@@ -28,9 +28,6 @@
 .dropdown.open {
     z-index: 2;
 }
-.dropdown:hover {
-    background: #9bbecc;
-}
 .dropdown:after {
     content: '';
     position: absolute;
@@ -173,7 +170,7 @@
     left: 0;
     top: 0;
     height: 100%;
-    width: 270px;
+    width: 120%;
     margin-left: -40px;
     list-style: none;
     overflow: hidden;
